@@ -4,7 +4,7 @@ source_url = "https://github.com/samedamci/shools"
 
 setup(
     name="shools",
-    version="0.1.1",
+    version="0.1.2",
     description="Basic POSIX tools in simple library.",
     author="samedamci",
     author_email="samedamci@disroot.org",

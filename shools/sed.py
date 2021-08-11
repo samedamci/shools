@@ -1,10 +1,5 @@
 from subprocess import run, PIPE
-
-
-class SedException(Exception):
-    def __init__(self, error: bytes) -> None:
-        self.message = str(error, encoding="utf-8").replace("sed: -e ", "")
-        super().__init__(self.message)
+from .exceptions import SedException
 
 
 def sed(input_str: str, expression: str) -> str:
